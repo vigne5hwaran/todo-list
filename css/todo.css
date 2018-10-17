@@ -43,7 +43,7 @@ li {
 li:nth-child(2n) {
 	background: white;
 }
-span {
+li span {
 	background: red;
 	margin-right: 20px;
 	text-align: center;
