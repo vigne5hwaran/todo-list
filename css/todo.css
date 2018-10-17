@@ -66,6 +66,7 @@ input {
 	box-sizing: border-box;
 	font-size: 18px;
 	color: rgb(117, 95, 226);
+	display: none;
 }
 input:focus {
 	outline: none;
