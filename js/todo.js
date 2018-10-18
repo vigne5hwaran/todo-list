@@ -40,6 +40,6 @@ $("input[type = 'text']").keypress(function(event){
 });
 
 // configuring the plus icon
-$("#fa-plus").click(function(){
+$(".fa-plus-circle").click(function(){
 	$("input[type = 'text']").fadeToggle();
 });
