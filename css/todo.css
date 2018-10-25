@@ -80,3 +80,39 @@ input:focus {
 	color: gray;
 	text-decoration: line-through;
 }
+
+
+
+
+
+/* ********************** media queries ******************************* */
+
+@media screen and (max-width: 400px) {
+	#container {
+		width: 300px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	input {
+		font-size: 15px;
+	}
+	li {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#container {
+		width: 280px;
+	}
+	h1 {
+		font-size: 18px;
+	}
+	input {
+		font-size: 14px;
+	}
+	li {
+		font-size: 12px;
+	}
+}
